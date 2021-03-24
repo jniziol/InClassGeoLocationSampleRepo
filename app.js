@@ -7,3 +7,5 @@ navigator.geolocation.getCurrentPosition(function(position) {
 }, function(error) {
   console.warn(error);
 }, {enableHighAccuracy: true, timeout: 10000, maximumAge: 0});
+
+// do some work
