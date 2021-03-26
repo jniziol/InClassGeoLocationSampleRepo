@@ -9,3 +9,5 @@ navigator.geolocation.getCurrentPosition(function(position) {
 }, {enableHighAccuracy: true, timeout: 10000, maximumAge: 0});
 
 // do some work
+
+// This is a little work
