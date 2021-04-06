@@ -1,11 +1,9 @@
-let lat, long;
+let latitude, longitude;
 
-navigator.geolocation.getCurrentPosition(function(pos) {
-  lat = pos.coords.latitude;
-  long = pos.coords.longitude;
-  console.log(pos);
-  console.log("hi")
-  console.log("sample #2")
+navigator.geolocation.getCurrentPosition(function(position) {
+  latitude = position.coords.latitude;
+  longitude = position.coords.longitude;
+  console.log(position);
 }, function(error) {
   console.warn(error);
 }, {enableHighAccuracy: true, timeout: 10000, maximumAge: 0});
