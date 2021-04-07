@@ -6,6 +6,8 @@ navigator.geolocation.getCurrentPosition(function(position) {
   
   longitude = position.coords.longitude;
     console.log(position);
+    // Fixed it up the way I like
+    // New lines of code here!
 }, function(error) {
   // This is important stuff
     console.warn(error);
